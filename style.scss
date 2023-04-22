@@ -2,13 +2,23 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
 .row {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    align-content: center;
+    padding: 0 20%;
+}
+
+.album-cover {
+    text-align: right;
+    flex: 40%;
 }
 
 .lyrics {
-    width: 40%;
     text-align: center;
+    flex: 60%;
 }
