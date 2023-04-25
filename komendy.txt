@@ -1,0 +1,8 @@
+// Uruchamianie lokalnego serwera 
+node_modules/.bin/browser-sync start --server --files "css/*.css" "*.html"
+
+// Instalacja html-validate 
+npm install --save-dev html-validate
+
+// Uruchomienie html-validate
+npm exec html-validate index.html
